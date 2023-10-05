@@ -11,15 +11,15 @@ export default function App() {
                 </Image>
         </View>
         <View style={styles.style2} >
-        <Text style={styles.baseText}>GROW</Text>
-        <Text style={styles.baseText}>YOUR BUSINESS</Text>
+        <Text style={styles.baseText1}>GROW</Text>
+        <Text style={styles.baseText1}>YOUR BUSINESS</Text>
         </View>
         <View style={styles.style3}>
         <Text style={styles.baseText}>We will help to grow your business using online server</Text>
         </View>
         <View style={styles.style4}>
-            <Button title='LOGIN' style={{width:'120px',height:'50px'}}></Button>
-        <Button title='SIGN UP'></Button>
+            <Button title='LOGIN' style={{width:'120px',height:'50px'}} color='#E3C000'></Button>
+            <Button title='SIGN UP' style={{width:'120px',height:'50px'}} color='#E3C000'></Button>
         </View>
 
       <StatusBar style="auto" />
@@ -63,5 +63,10 @@ const styles = StyleSheet.create({
     },
     baseText: {
         fontWeight: 'bold',
-    }
+    },
+    baseText1: {
+      fontWeight: 'bold',
+      fontSize: 30,
+  },
+
 });
